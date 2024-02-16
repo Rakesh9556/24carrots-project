@@ -3,9 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>24carrots</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
+    <!-- header -->
+    <header class="w-screen h-24 min-h-32 flex justify-center content-center fixed bg-white z-10">
+        <div class=" w-screen max-w-7xl pt-10">
+            <nav class="hidden lg:block relativetop-3 md:top-5 lg:top-7">
+                <div class="menu-container ">
+                    <ul class="flex justify-around items-center tracking-widest">
+                        <li class=""><a href="">ABOUT</a></li>
+                        <li class="px-4 text-sm relative"><a href="">SERVICE</a></li>
+                        <li class="px-4 text-sm relative"><a href="">EVENTS</a></li>
+                        <li class="px-4 text-sm relative sm:mx-4">
+                            <a href="#">
+                                <img src="/src/assets/icons/24carrots.svg" alt="home" class=" w-24 md:w-36 lg:w-48 min-w-40 h-8 md:h-10 lg:h-11 text-center lg:mx-32 sm:mx-auto"> 
+
+                            </a>
+                        </li>
+                        <li class="px-4 text-sm relative"><a href="">VENUES</a></li>
+                        <li class="px-4 text-sm relative"><a href="">CAREERS</a></li>
+                        <li class="px-4 text-sm relative"><button>GET IN TOUCH</button></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class=" flex justify-between items-center">
+                <div></div>
+                <div class="flex items-center sm:ml-12">
+                    <img src="/src/assets/icons/24carrots.svg" alt="home" class="w-24 md:w-36  block lg:hidden lg:w-48 min-w-40 h-8 md:h-10 lg:h-11 mx-auto">
+                </div>
+                <!-- navigation menu for mobile screen -->
+                <div class=" block lg:hidden sm:mr-12" id="menuIcon">
+                    <a href=""><img src="/src/assets/icons/menu.svg" alt="Menu icon" width="32" height="32"></a>
+                </div>
+            </div>
+
+            <!-- full screen navigaion menu will be here  -->
+            <div class="fullscreen-menu" id="fullscreenMenu">
+                <!-- Your fullscreen menu content goes here -->
+                <p>This is a fullscreen menu</p>
+              </div>
+            
+        </div>
+    </header>
+
+    <!-- main body content -->
+    <main class="pt-20">
+        <article>
+            <div>
+
+                <!-- intro block section -->
+                <section class="intro-block relative">
+                    <div class="video-container aspect-[4/5] lg:aspect-auto">
+                        <video src="/src/assets/videos/24carrtos-home-banner.mp4" autoplay loop class="w-full h-full object-cover"></video>
+                        <h2 class="absolute text-6xl lg:text-8xl text-center w-screen  text-white font-serif top-1/2 left-1/2 transform  -translate-x-1/2 -translate-y-1/2">Simply the Finest</h2>
+                    </div>
+                </section>
+
+                <!-- content slider section -->
+                <section class="content-slider-section">
+                    <div class="slider-content">
+                        <!-- left slider container -->
+                        <div class="left-slider-container">
+                            <!-- left content container -->
+                            <div class="left-content">
+                                <!-- left content items -->
+                                <h3>WELCOME TO 24 CARROTS</h3>
+                                <h2>Remarkable Catering & Events</h2>
+                                <p>24 Carrots is the premier catering and events company of choice in Southern California. We create remarkable experiences by offering the finest quality foods and providing unsurpassed personalized service, driven by our passion for life’s special occasions.</p>
+                                <button>GET IN TOUCH (ARROW)</button>
+                            </div>
+                        </div>
+                        
+                        <!-- right slider container -->
+                        <div class="right-slider-container">
+                            <!-- right content container  -->
+                            <div class="right-content">
+                                <!-- sliding image -->
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- new carrot pin division -->
+                <div class="carrot pin-division">
+                    <section>
+                        <div class="carrot-container">
+                            <!-- left content container  -->
+                            <div>
+                                <!-- on scroll on phone content view  -->
+                                <div>
+                                    <img src="assets/images/wedding-scroll-cropped.jpg" alt="">
+                                    <img src="assets/images/2.2-Social-Lorely-Meza.jpg" alt="">
+                                    <img src="assets/images/2.3-Corporate-Joel-Maus.jpg" alt="">
+                                    <img src="assets/images/2.4-Venues-Jenny-Quicksall.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- right content container  -->
+                            <div>
+                                <!-- scroll acordation content  -->
+                                <div>
+                                    <!-- scroll acordation headline  -->
+                                    <div>
+                                        <h2>Making Every Experience Magical</h2>
+                                    </div>
+
+                                    <!-- scroll accordation picker  -->
+                                    <div>
+                                        <!-- scroll accordation menu  -->
+                                        <nav>
+                                            <button>Weddings</button>
+                                            <button>Social</button>
+                                            <button>Corporate</button>
+                                            <button>Venues</button>
+                                        </nav>
+
+                                        <!-- scroll accordation info  -->
+                                        <div>
+                                            <!-- scroll accordation description 0 -->
+                                            <div>
+                                                <h3>Exceptional Weddings</h3>
+                                                <p>The most important day of your life, is ours too. Your wedding should be the ultimate celebration of your relationship, and our team of experts guide you through the process, offering peace of mind and a remarkable experience.</p>
+                                                <button>Learn More</button>
+                                            </div>
+
+                                            <!-- scroll accordation description 1 -->
+                                            <div>
+                                                <h3>Incomparable Social Events</h3>
+                                                <p>We sweat the small stuff, so you don't have to. For all of life's special occasions, we give your anniversary, shower, or birthday party the attention it deserves, allowing you to focus on being present with your guests!</p>
+                                                <button>Learn More</button>
+                                            </div>
+
+                                            <!-- scroll accordation description 2 -->
+                                            <div>
+                                                <h3>One-of-a-kind Corporate Events</h3>
+                                                <p>Our job is to make you look good. From office lunches to large-scale corporate events, we've made our business out of making your business shine.</p>
+                                                <button>Learn More</button>
+                                            </div>
+
+                                            <!-- scroll accordation description 2 -->
+                                            <div>
+                                                <h3>Exclusive Social Venues</h3>
+                                                <p>We don't put you in a box. Each venue is unique to each party, and our curated list of event spaces and venue partners offers easy access with personalized service at Southern California's premier locations.</p>
+                                                <button>Learn More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    
+
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script async>
+        // hide the header on scrolling
+        document.addEventListener("DOMContentLoaded", function () {
+            var header = document.querySelector('header');
+            var lastScrollY = window.scrollY;
+
+            window.addEventListener('scroll', function () {
+                var scrollY = window.scrollY;
+
+                if (scrollY > lastScrollY) {
+                header.classList.add('hide-on-scroll');
+                } else {
+                header.classList.remove('hide-on-scroll');
+                }
+
+            });
+        });
+
+        // fullscreen menu item list 
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.getElementById('menuIcon');
+            const fullscreenMenu = document.getElementById('fullscreenMenu');
+
+            menuIcon.addEventListener('click', function () {
+            fullscreenMenu.classList.toggle('active');
+            });
+        });          
+  
+
+
+    </script>
     
 </body>
 </html>

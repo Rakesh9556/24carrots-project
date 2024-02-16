@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'FuturaPTDemiOblique';
+    src: url('/src/assets/fonts/Futura/FuturaPTDemiOblique.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'FuturaPTExtraBold';
+    src: url('/src/assets/fonts/Futura/FuturaPTExtraBold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'FuturaPTExtraBoldOblique';
+    src: url('/src/assets/fonts/Futura/FuturaPTExtraBoldOblique.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'FuturaPTHeavy';
+    src: url('/src/assets/fonts/Futura/FuturaPTHeavy.otf') format('opentype')
+    ;
+  }
+  @font-face {
+    font-family: 'FuturaPTHeavyOblique';
+    src: url('/src/assets/fonts/Futura/FuturaPTHeavyOblique.otf') format('opentype')
+    ;
+  }
+  @font-face {
+    font-family: 'FuturaPTLight';
+    src: url('/src/assets/fonts/Futura/FuturaPTLight.otf') format('opentype')
+    ;
+  }
+  @font-face {
+    font-family: 'FuturaPTLightOblique';
+    src: url('/src/assets/fonts/Futura/FuturaPTLightOblique.otf') format('opentype')
+    ;
+  }
+  @font-face {
+    font-family: 'FuturaPTMedium';
+    src: url('/src/assets/fonts/Futura/FuturaPTMedium.otf') format('opentype')
+    ;
+  }
+  @font-face {
+    font-family: 'FuturaPTMediumOblique';
+    src: url('/src/assets/fonts/Futura/FuturaPTMediumOblique.otf') format('opentype');
+
+  }
+
+  
+
+header {
+
+    font-family: 'FuturaPTMedium', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px; /* Adjust as needed */
+    background-color: white;
+    transition: transform 300ms ease-in-out;
+  }
+  
+  header.hide-on-scroll {
+    transform: translateY(-100%);
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    display: inline-block;/* Initially hide on larger screens */
+  }
+
+  .menu-icon i {
+    color: blue; /* Set the color to blue or any other color */
+  }
+
+  #menuIcon:active{
+    
+
+  }
